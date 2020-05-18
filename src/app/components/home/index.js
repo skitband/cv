@@ -54,7 +54,7 @@ const Home = () => {
 					</div>
 				</div>
 				<div className="vcard-profile-description-text">
-					<p>A professional Web Developer. With atleast 5+ years of experience in the field of web development. </p>
+					<p>A Web Developer. With atleast 5+ years of experience in the field of web development. </p>
 					<p>Looking for a interesting projects to apply my knowledge and skills while building up and growing your business.</p>
 					<p>Give me a call... <AiFillPhone /></p>
 				</div>
