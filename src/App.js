@@ -25,7 +25,8 @@ const App = () => {
           <div className="container">
             <Menu />
             <Switch>
-              <Route path="/" exact component={Home} />
+            <Route path="/" exact component={Home} />
+              <Route path="/cv" exact component={Home} />
               <Route path="/resume" exact component={Resume} />
               <Route path="/skills" exact component={Skills} />
               <Route path="/portfolio" exact component={Portfolio} />
