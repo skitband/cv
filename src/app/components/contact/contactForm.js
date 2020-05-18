@@ -52,7 +52,7 @@ const ContactForm = () => {
                 </div>  
             </form>
             <div>
-                {status === "SUCCESS" ? <p>Thanks!</p> : ''}
+                {status === "SUCCESS" ? <p>Thank you for getting in touch!, will get back in touch with you soon!</p> : ''}
                 {status === "ERROR" && <p>Ooops! There was an error.</p>}
             </div>
         </div>
