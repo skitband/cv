@@ -15,7 +15,7 @@ const Menu = () => {
         <div className="main-menu" id="main-menu">
 			<ul className="main-menu-list">
                 <li>
-                    <NavLink to="/" className="link-home" exact activeClassName="menuActive"> Home</NavLink>
+                    <NavLink to="/cv" className="link-home" exact activeClassName="menuActive"> Home</NavLink>
                 </li>
                 <li>
                     <NavLink to="/resume" className="link-page" exact  activeClassName="menuActive">Resume</NavLink>
