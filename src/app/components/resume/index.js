@@ -4,7 +4,7 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 
 const Resume = () => {
     
-    const [ section, setSection ] = useState('');
+	const [ section, setSection ] = useState('');
 
     setTimeout(() => {
         setSection('section-page-active')
@@ -15,7 +15,7 @@ const Resume = () => {
         <div className={"section-vcardbody section-page text-resume " + section} id="section-resume">
 			<div className="section-education">
 	            <div className="resume-buttons header-page-buttons">
-					<a href="CV2020-new.pdf" className="btn btn-default btn-default2" download><AiOutlineCloudDownload />&nbsp; Download my resume</a>
+				<a href="https://doc-0c-5o-docs.googleusercontent.com/docs/securesc/b6ui5u87kaeis5rgh3qctq2b56vcaokq/68eutfdpausgi94aqn6qkardh0aqtfjd/1589792775000/01521898613496182963/01521898613496182963/1oy4IHDMlGz2S3NlBskUxbMY8RKFuIGRv?e=download&authuser=3&nonce=99b5nfq34mt8e&user=01521898613496182963&hash=ncv6bvd90vfas1lsftd204duapld26em" className="btn btn-default btn-default2" target="_blank" download rel="noopener noreferrer"><AiOutlineCloudDownload />&nbsp; Download my resume</a>
 	            </div>
 				<h2 className="section-title2"><i className="fa fa-university"></i>&nbsp; Education & Trainings</h2>
 
@@ -164,8 +164,7 @@ const Resume = () => {
 				
 			<div className="page-footer">
 	            <div className="resume-buttons">
-                <a href="CV2020-new.pdf" className="btn btn-default btn-default2" download><AiOutlineCloudDownload />&nbsp; Download my resume</a>
-					{/* <a href="#page-contact" className="btn btn-default btn-default2 link-page"><i className="fa fa-download"></i>&nbsp;  Get in Touch</a> */}
+                <a href="https://doc-0c-5o-docs.googleusercontent.com/docs/securesc/b6ui5u87kaeis5rgh3qctq2b56vcaokq/68eutfdpausgi94aqn6qkardh0aqtfjd/1589792775000/01521898613496182963/01521898613496182963/1oy4IHDMlGz2S3NlBskUxbMY8RKFuIGRv?e=download&authuser=3&nonce=99b5nfq34mt8e&user=01521898613496182963&hash=ncv6bvd90vfas1lsftd204duapld26em" className="btn btn-default btn-default2" target="_blank" download rel="noopener noreferrer"><AiOutlineCloudDownload />&nbsp; Download my resume</a>
 	            </div>
 	            <p className="footer-quote text-center"><strong>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</strong> <br/><i>- Martin Fowler</i></p>
 			</div>			

@@ -7,6 +7,7 @@ import Skills from './app/components/skills';
 import Portfolio from './app/components/portfolio';
 import Contact from './app/components/contact';
 import VisitorCounter from './visitorCounter';
+import PageNotFound from './404';
 
 import {
   BrowserRouter as Router,
@@ -19,18 +20,33 @@ const App = () => {
     <div className="App">
       <Loader />
       <Router>
-        {/* <div className="vcard-profile-description-ft-item" style={{float:'right', marginTop: '10px', marginRight: '15px', color: '#ffffff'}}> <span id="counter-text"> </span> </div> */}
         <VisitorCounter />
         <section id="body">
           <div className="container">
-            <Menu />
             <Switch>
-            <Route path="/" exact component={Home} />
-              <Route path="/cv" exact component={Home} />
-              <Route path="/resume" exact component={Resume} />
-              <Route path="/skills" exact component={Skills} />
-              <Route path="/portfolio" exact component={Portfolio} />
-              <Route path="/contact" exact component={Contact} />
+              <Route path={["/", "/cv"]} exact>
+                <Menu />
+                <Home />
+              </Route>
+              <Route path="/cv/resume" exact>
+                <Menu />
+                <Resume />
+              </Route>
+              <Route path="/cv/skills" exact>
+                <Menu />
+                <Skills />
+              </Route>
+              <Route path="/cv/portfolio" exact>
+                <Menu />
+                <Portfolio />
+              </Route>
+              <Route path="/cv/contact" exact>
+                <Menu />
+                <Contact />
+              </Route>
+              <Route>
+                <PageNotFound />
+              </Route>
             </Switch>
           </div>
         </section>
